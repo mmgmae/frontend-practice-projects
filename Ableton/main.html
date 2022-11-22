@@ -328,18 +328,79 @@
                                 <div>
                                     <form class="main-footer_newsletter_form test-subscribe-to-newsletter-form"
                                         action="#">
-
+                                        <input type="hidden" name="#" value="#">
+                                        <input type="hidden" name="mailing_list" value="newsletter"
+                                            id="id_mailing_list">
+                                        <input type="hidden" name="source" value="1" id="id_source">
+                                        <input type="hidden" name="next" value="#" id="id_next">
+                                        <div class="main-footer_form_group">
+                                            <div class="main-footer_form_field">
+                                                <input type="email" type="email" placeholder="Email Address">
+                                            </div>
+                                            <input class="main-footer_button" type="submit" value="Sign up">
+                                        </div>
                                     </form>
                                 </div>
                             </div>
                             <div class="main-footer_col main-footer_col--sm">
+                                <ul class="main-footer_list">
 
+                                </ul>
+                                <ul class="main-footer_social">
+
+                                </ul>
                             </div>
+                            <div class="main-footer_col main-footer_col--sm">
+                                <h3 class="main-footer_h3">Education</h3>
+                                <ul class="main-footer_list">
+
+                                </ul>
+                            </div>
+                            ::after
+                        </div>
+                        <div class="main-footer_row">
+                            <div class="main-footer_col main-footer_col--sm">
+                                <h3 class="main-footer_h3">Community</h3>
+                                <ul class="main-footer_list">
+
+                                </ul>
+                            </div>
+                            <div class="main-footer_col main-footer_col--sm">
+                                <h3 class="main-footer_h3">Distributors</h3>
+                                <ul class="main-footer_list">
+
+                                </ul>
+                            </div>
+                            <div class="main-footer_col main-footer_col--md">
+                                <h3 class="main-footer_h3">Language and Location</h3>
+                                <div class="main-footer_language-selector">
+                                    <div
+                                        class="main-footer_secondary_select main-footer_form_element--select has-auto-width">
+                                        <div class="form_element_field main-footer_icon-arrow--small">
+                                            <form action="/set-language/" method="POST">
+                                                <input type="hidden">
+                                                <select name="language" id="">
+                                                    <option value="en">English</option>
+                                                    <option value="de">Deutsch</option>
+                                                    <option value="fr">French</option>
+                                                    <option value="ja">Japanese</option>
+                                                    <option value="zh-cn">Chinese</option>
+                                                </select>
+                                            </form>
+                                            ::after
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-footer_row">
+
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
+        ::after
     </div>
 
 </body>
