@@ -1,11 +1,7 @@
 /* CSS Reset */
 
-
 /* Text Styling */
 
-* {
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* Navbar Styling */
 
@@ -20,3 +16,15 @@
 
 /* Media Queries */
 
+body {
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #000;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+}
