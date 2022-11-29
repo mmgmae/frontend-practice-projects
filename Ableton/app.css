@@ -28,3 +28,41 @@ body {
     background-color: #f3f3f3;
     overflow-x: hidden;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: blue;
+    color: #fff;
+    text-shadow: none;
+}
+
+div {
+    display: block;
+}
+
+nav {
+    display: block;
+}
+
+
+.page-about_collage--products .page-about_collage_background {
+    width: 58.33333vw;
+    height: 58.33333vw;
+    left: 41.66667vw;
+}
+
+.page-about_collage_background {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.bg-lemonade {
+    background-color: #FBFFA7!important;
+}
+
+
+
